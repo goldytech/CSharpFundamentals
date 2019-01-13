@@ -24,6 +24,18 @@ namespace Lists
                 Console.WriteLine(i);
             }
 
+            IList<Student> studentList = new List<Student>() {
+                new Student(){ Id=1, Name="Bill"},
+                new Student(){ Id=2, Name="Steve"},
+                new Student(){ Id=3, Name="Ram"},
+                new Student(){ Id=1, Name="Moin"}
+            };
+
+            foreach (var student in studentList)
+            {
+                Console.WriteLine($"Student id is {student.Id} and name is {student.Name}");
+            }
+
             Console.Read();
         }
     }
