@@ -23,6 +23,8 @@ namespace BasicIfElse
             {
                 Console.WriteLine("You are not yet a legal adult");
             }
+
+            Console.Read();
         }
     }
 }

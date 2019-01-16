@@ -34,6 +34,8 @@ namespace Switch
                     break;
 
             }
+
+            Console.Read();
         }
     }
 }

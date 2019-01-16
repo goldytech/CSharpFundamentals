@@ -33,6 +33,8 @@ namespace ForLoop
 
             newAge = age++;
             Console.WriteLine("age: {0}, newAge: {1}", age, newAge);
+
+            Console.Read();
         }
     }
 }
